@@ -7,5 +7,14 @@ public class WatchList {
 
         System.out.println(topPick);
         System.out.println(ogTitle);
+
+        System.out.println(topPick.toUpperCase());
+
+        System.out.println(formatAnimeTitle(ogTitle));
+    }
+
+    static String formatAnimeTitle(String animeTitle){
+        System.out.println("Before Format" + animeTitle);
+        return animeTitle.toLowerCase();
     }
 }
